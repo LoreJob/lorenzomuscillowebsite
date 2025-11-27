@@ -1,5 +1,6 @@
 import { Code } from "lucide-react";
 import { useEffect, useState } from "react";
+import profileImg from "../../images/Screenshot 2025-11-27 at 6.32.12 PM.png";
 
 const navItems = [
   { id: "hero", label: "Hero" },
@@ -56,7 +57,7 @@ const About = () => {
               <span className="absolute -top-6 -left-6 text-primary text-4xl md:text-4xl font-semibold z-10">[</span>
               <div className="rounded-xl overflow-hidden bg-white/5 shadow-lg">
                 <img
-                  src="images/Screenshot 2025-11-27 at 6.32.12 PM.png"
+                  src={profileImg}
                   alt="Foto di me"
                   className="w-full h-full object-cover block"
                 />
