@@ -24,6 +24,13 @@ const LogoTicker = () => {
                 <img
                   src={company.logoSrc}
                   alt={company.name}
+                  onError={(e) => {
+                    const img = e.currentTarget as HTMLImageElement;
+                    // Hide the broken image and show the company name as text fallback
+                    img.style.display = "none";
+                    const parent = img.parentElement;
+                    if (parent) parent.textContent = company.name;
+                  }}
                   style={{ height: company.size ? `${company.size}px` : undefined }}
                   className="w-auto object-contain filter grayscale opacity-80 hover:filter-none hover:opacity-100 transition-all"
                 />
