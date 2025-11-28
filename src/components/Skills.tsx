@@ -105,7 +105,7 @@ const Skills = () => {
         <div className="w-full mb-2">
           <div className="max-w-3xl">
             <h2 className="text-6xl md:text-4xl font-semibold leading-none text-primary tracking-tight text-left">Skills</h2>
-            <p className="text-lg text-white mb-6 max-w-2xl mt-6 text-left">The tools and technologies I use to try to do somethig.</p>
+            <p className="text-lg text-white mb-6 max-w-2xl mt-6 text-left">The tools and technologies I use to try to do something.</p>
           </div>
         </div>
 
