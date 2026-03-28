@@ -8,12 +8,8 @@ const Experience = () => {
       url: "https://www.essilorluxottica.com/",
       period: "Feb '26 - Present",
       description:
-        "Contributing to end-to-end data science and AI initiatives in logistics operations, with a focus on forecasting, document intelligence, and automation.",
-      achievements: [
-        "Built and deployed an end-to-end warehouse absenteeism forecasting model (Python, Databricks, Azure Data Lake) with a rolling 30-day horizon; achieved a forecast bias of ~1% across 4 international sites (Italy, Atlanta, Columbus, Dallas), with last-month bias of 0.77% in Italy.",
-        "Designed an AI-powered document-splitting pipeline for internal customs document management, combining OCR and Computer Vision (hosted on Databricks, data on Azure Data Lake) to process ~70 documents/hour; built a labeling app enabling operators to generate ground-truth annotations for model training.",
-        "Developed an automated AI newsletter pipeline extracting logistics industry news, applying relevance scoring to filter articles, and generating summaries via LLM (Claude Haiku), reducing manual curation effort end-to-end.",
-      ],
+        "Built and deployed an end-to-end warehouse absenteeism forecasting model (Python, Databricks, Azure Data Lake) achieving ~1% forecast bias across 4 international sites; designed an AI-powered document-splitting pipeline (OCR and Computer Vision) processing ~70 documents/hour; developed an automated AI newsletter pipeline with LLM-based summaries extracting logistics industry news.",
+      achievements: [],
     },
     {
       role: "Product Manager – Accessories",
