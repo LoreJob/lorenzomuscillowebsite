@@ -3,10 +3,23 @@ import { Briefcase, Calendar, GraduationCap } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
+      role: "Logistic Data Analyst (Data Science & AI Team)",
+      company: "EssilorLuxottica - Sedico, Italy",
+      url: "https://www.essilorluxottica.com/",
+      period: "Feb '26 - Present",
+      description:
+        "Contributing to end-to-end data science and AI initiatives in logistics operations, with a focus on forecasting, document intelligence, and automation.",
+      achievements: [
+        "Built and deployed an end-to-end warehouse absenteeism forecasting model (Python, Databricks, Azure Data Lake) with a rolling 30-day horizon; achieved a forecast bias of ~1% across 4 international sites (Italy, Atlanta, Columbus, Dallas), with last-month bias of 0.77% in Italy.",
+        "Designed an AI-powered document-splitting pipeline for internal customs document management, combining OCR and Computer Vision (hosted on Databricks, data on Azure Data Lake) to process ~70 documents/hour; built a labeling app enabling operators to generate ground-truth annotations for model training.",
+        "Developed an automated AI newsletter pipeline extracting logistics industry news, applying relevance scoring to filter articles, and generating summaries via LLM (Claude Haiku), reducing manual curation effort end-to-end.",
+      ],
+    },
+    {
       role: "Product Manager – Accessories",
       company: "Samsung Electronics - Milan,Italy",
       url: "https://www.samsung.com/it/",
-      period: "Oct '25 - Present",
+      period: "Oct '25 - Feb '26",
       description:
         "Supported data-driven product lifecycle management for wearable and mobile accessories, leveraging analytics to guide strategic decisions and portfolio optimization. My work included monitoring market and competitor insights to refine product strategy, as well as assisting with pre-launch and post-launch performance tracking and demand forecasting.",
       achievements: [],
