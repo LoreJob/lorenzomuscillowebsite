@@ -7,6 +7,7 @@ const LogoTicker = () => {
     { name: "ETH Zurich", logoSrc: "/logos/eth_logo_kurz_neg.png", size: 60 },
     { name: "Tinexta", logoSrc: "/logos/Tinexta_Neg_Whi_CMYK-1-Photoroom.png", size: 100 },
     { name: "Algoritmica.ai", logoSrc: "/logos/b8cab-algoritmica_logo_retina_w.png", size: 30 },
+    { name: "EssilorLuxottica", logoSrc: "/logos/EssilorLuxotticaWhite.svg", size: 50 },
     { name: "Wallmart", logoSrc: "/logos/WMT-Wordmark-Small-TrueBlue-White-RGB.svg", size: 30 },
     { name: "Ca'Foscari", logoSrc: "/logos/cafoscari.png", size: 100 },
   ];
